@@ -22,6 +22,6 @@ public class ItemFactura {
     }
 
     public float calcularImporte(){
-        return cantidad * producto.getPrecio();
+        return this.cantidad * producto.getPrecio();
     }
 }
